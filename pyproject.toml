@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-label-printer"
+version = "1.0.0"
+description = "MCP server for printing labels with QR codes to Brother QL-810W"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+    "pillow>=10.0.0",
+    "qrcode>=7.4.0",
+    "brother_ql>=0.9.0",
+]
+
+[project.scripts]
+mcp-label-printer = "mcp_label_printer.server:run"
+
+[tool.setuptools.packages.find]
+include = ["mcp_label_printer*"]
+

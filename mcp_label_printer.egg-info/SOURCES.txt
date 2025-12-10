@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+mcp_label_printer/__init__.py
+mcp_label_printer/printer.py
+mcp_label_printer/server.py
+mcp_label_printer.egg-info/PKG-INFO
+mcp_label_printer.egg-info/SOURCES.txt
+mcp_label_printer.egg-info/dependency_links.txt
+mcp_label_printer.egg-info/entry_points.txt
+mcp_label_printer.egg-info/requires.txt
+mcp_label_printer.egg-info/top_level.txt

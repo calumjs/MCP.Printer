@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-label-printer = mcp_label_printer.server:run
